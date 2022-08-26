@@ -1,0 +1,26 @@
+
+
+@tailwind base;
+@tailwind components;
+
+    .btn{
+        @apply inline-block px-5 py-3 rounded-lg focus:outline-none focus:ring focus:ring-offset-2 uppercase tracking-wider font-semibold text-sm sm:text-base
+    }
+
+    .btn-primary{
+        @apply bg-indigo-500 hover:bg-indigo-400 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-500 text-white;
+    }
+
+    .btn-secondary{
+        @apply bg-gray-300 hover:bg-gray-200 focus:ring-gray-300 focus:ring-opacity-50 active:bg-gray-300 text-gray-800;
+    }
+
+    .underline_menu{
+        @apply relative no-underline content-none after:absolute after:bg-black after:h-0.5 after:w-0 after:left-0 after:bottom-[-10px] after:ease-[0.3s] hover:after:w-full;
+    }
+    
+    
+@tailwind utilities;
+
+
+
